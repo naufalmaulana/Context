@@ -1,0 +1,4 @@
+// filename = kebab-case
+// componentname = PascalCase
+// functionName = camelCase
+// config/env = snake_case

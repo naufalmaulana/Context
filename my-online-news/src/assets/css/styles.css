@@ -1,0 +1,51 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Urbanist", sans-serif;
+  font-optical-sizing: auto;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1200px;
+  }
+}
+
+.card:hover img {
+  scale: 1.1;
+}
+
+.card figure {
+  height: 215px;
+}
+
+.card figure img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top center;
+     object-position: top center;
+  -webkit-transition: scale .3s;
+  transition: scale .3s;
+}
+
+.homeLeftHeadline:hover .homeLeftHeadlineImage img {
+  scale: 1.1;
+}
+
+.homeLeftHeadlineImage img {
+  -webkit-transition: scale .3s;
+  transition: scale .3s;
+}
+
+.homeLeftHeadlineMasking {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(47.7%, rgba(0, 0, 0, 0)), to(#000));
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 47.7%, #000 100%);
+}
+/*# sourceMappingURL=styles.css.map */

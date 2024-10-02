@@ -1,0 +1,23 @@
+.home{
+    &Left{
+        &Headline{
+            &:hover{
+                .homeLeftHeadline{
+                    &Image{
+                        img{
+                            scale: (1.1);
+                        }
+                    }
+                }
+            }
+            &Image{
+                img{
+                    transition: scale .3s;
+                }
+            }
+            &Masking{
+                background: linear-gradient(180deg, rgba(0, 0, 0, 0) 47.7%, #000 100%);
+            }
+        }
+    }
+}
